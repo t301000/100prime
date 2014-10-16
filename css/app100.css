@@ -1,0 +1,50 @@
+.my-container{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.hided{
+	background-color: transparent;
+	color: transparent;
+}
+
+.hightlight{
+	background-color: #9AEA85;
+}
+
+.my-btn-default{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: solid 1px gray;
+	font-size: 16pt;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	cursor: default;
+	position: relative;
+}
+
+.my-btn-default > button {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tool{
+	margin-top: 5px;
+}
+
+#footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #DDD8D8;
+}
